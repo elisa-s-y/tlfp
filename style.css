@@ -1,0 +1,72 @@
+
+
+@font-face {
+    font-family: "cocogoose";
+    src: url("cocogoose.ttf") ;
+}
+
+div>h2{
+  font-family:cocogoose;
+  font-size:2rem;
+}
+
+h1{
+  top:2%;
+  font-family:cocogoose;
+  font-size:4rem;
+  right:30%;
+  position:absolute;
+  
+}
+
+svg>path{
+  border:5px solid white;
+  
+}
+
+svg{
+  fill:#54585A;
+  scale:300%;
+  top:300px;
+  position:relative;
+  left:1100px;
+  align-contents:center;
+}
+
+svg path:hover{
+  fill:#00B2A9;
+  cursor:pointer;
+}
+
+h2{
+  font-family:Arial;
+  font-size:18px;
+  text-transform:uppercase;
+}
+
+.infobox:not(#default){
+  border-radius:5px;
+  background-color:#00B2A9;
+  color:white;
+  position:absolute;
+  text-align:center;
+  left:50%;
+  top:20%;
+  display:none;
+  padding:30px;
+  max-width:500px
+
+}
+
+#default{
+  color:white;
+  border-radius:5px;
+  background-color:#00B2A9;
+  position:absolute;
+  text-align:center;
+  left:50%;
+  top:20%;
+  padding:30px;
+  max-width:500px
+}
+
